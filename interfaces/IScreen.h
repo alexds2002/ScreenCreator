@@ -1,7 +1,9 @@
-class Screen
+#pragma once
+
+class IScreen
 {
 public:
-    virtual void displayInfo() const = 0;
-    virtual ~Screen() = default;
+    virtual void DisplayInfo() const = 0;
+    virtual ~IScreen() = default;
 };
 
