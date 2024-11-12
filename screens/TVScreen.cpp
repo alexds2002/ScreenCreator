@@ -2,11 +2,11 @@
 
 #include <iostream>
 
-TVScreen::TVScreen(int w, int h) : width(w), height(h)
+TVScreen::TVScreen(int w, int h) : m_width(w), m_height(h)
 {
 }
 
 void TVScreen::DisplayInfo() const
 {
-    std::cout << "TV Screen - Width: " << width << " mm, Height: " << height << " mm\n";
+    std::cout << "TV Screen - Width: " << m_width << " mm, Height: " << m_height << " mm\n";
 }

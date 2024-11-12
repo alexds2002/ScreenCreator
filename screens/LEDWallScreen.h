@@ -12,13 +12,13 @@ enum class LEDWallType : int
 class LEDWallScreen : public IScreen
 {
 private:
-    int panelWidth;
-    int panelHeight;
-    LEDWallType mode;
-    int targetWidth;
-    int targetHeight;
-    int aspectWidth;
-    int aspectHeight;
+    int m_panelWidth;
+    int m_panelHeight;
+    LEDWallType m_mode;
+    int m_targetWidth;
+    int m_targetHeight;
+    int m_aspectWidth;
+    int m_aspectHeight;
 
 public:
     LEDWallScreen(int pW, int pH, int aW, int aH, LEDWallType wallType);

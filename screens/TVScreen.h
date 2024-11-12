@@ -11,7 +11,7 @@ public:
     void DisplayInfo() const override;
 
 private:
-    int width;
-    int height;
+    int m_width;
+    int m_height;
 };
 
