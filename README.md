@@ -1,8 +1,9 @@
 # ScreenCreator
 
-# Requirments
+# Requirments(not minimum)
 cmake 3.16
 make 4.2.1
+python3 3.8.10
 
 # How to build and run(Linux) manually
 Create a build directory, run cmake and then make:
